@@ -1,0 +1,48 @@
+
+Containers:
+
+    Containers are a fundamental building block of Bootstrap that contain, pad, and align your content within a given device or viewport.
+
+How they work:>
+
+Containers are the most basic layout element in bootstrap and are 'required when using our default grid system.'
+Bootstrap comes with three different containers:
+
+    0> .container (which sets a 'max-width' at each responsive brakpoint)
+    0> .container-{breakpoint} (which is 'width:100%' until the specified breakpoint)
+    0> .container-fluid (which is 'width: 100%' at all breakpoints)
+
+--> some of them:
+
+    .container 
+    .container-sm 
+    .container-md 
+    .container-lg 
+    .container-xl
+    .container-xxl 
+    .container-fluid 
+
+
+--> Default container 
+
+    <div class="container">
+    <!-- Content here -->
+    </div>
+
+
+--> Responsive container
+
+    <div class="container-sm">100% wide until small breakpoint</div>
+    <div class="container-md">100% wide until medium breakpoint</div>
+    <div class="container-lg">100% wide until large breakpoint</div>
+    <div class="container-xl">100% wide until extra large breakpoint</div>
+    <div class="container-xxl">100% wide until extra extra large breakpoint</div>
+
+--> Fluid container
+
+    <div class="container-fluid">
+    ...
+    </div>
+
+
+
