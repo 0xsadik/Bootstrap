@@ -1,0 +1,13 @@
+
+.row {
+    height:50px;
+    background-color: #C8FFD4;
+    margin-bottom: 1%;
+}
+
+.col, .bg{
+    background-color: #FDFDBD;
+    border: 1px solid gray;
+    height: 30px;
+}
+
